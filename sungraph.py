@@ -14,7 +14,10 @@ import matplotlib.pyplot as plt
 import datetime
 
 tz = 'Europe/Paris'
-lat, lon = 69.649, 18.955
+lat, lon = 69.649, 18.955 # Tromsø
+
+#tz = 'Europe/London'
+#lat, lon = 51.1324, 0.2637 # Tunbridge Wells
 
 days = pd.date_range('2020-01-01 00:00:00', '2021-01-01', closed='left',
                       freq='D', tz=tz)
